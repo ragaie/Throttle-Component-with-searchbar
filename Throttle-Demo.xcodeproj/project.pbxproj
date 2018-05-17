@@ -12,6 +12,7 @@
 		81A5514C20A327D300E0A1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5514A20A327D300E0A1BA /* Main.storyboard */; };
 		81A5514E20A327D300E0A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A5514D20A327D300E0A1BA /* Assets.xcassets */; };
 		81A5515120A327D300E0A1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5514F20A327D300E0A1BA /* LaunchScreen.storyboard */; };
+		81A5515920A3281600E0A1BA /* ChtarThrottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A5515820A3281600E0A1BA /* ChtarThrottle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		81A5514D20A327D300E0A1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A5515020A327D300E0A1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A5515220A327D300E0A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A5515820A3281600E0A1BA /* ChtarThrottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChtarThrottle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				81A5514D20A327D300E0A1BA /* Assets.xcassets */,
 				81A5514F20A327D300E0A1BA /* LaunchScreen.storyboard */,
 				81A5515220A327D300E0A1BA /* Info.plist */,
+				81A5515820A3281600E0A1BA /* ChtarThrottle.swift */,
 			);
 			path = "Throttle-Demo";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A5515920A3281600E0A1BA /* ChtarThrottle.swift in Sources */,
 				81A5514920A327D300E0A1BA /* ViewController.swift in Sources */,
 				81A5514720A327D300E0A1BA /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z3K9T9U74;
 				INFOPLIST_FILE = "Throttle-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chtar.Throttle-Demo";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z3K9T9U74;
 				INFOPLIST_FILE = "Throttle-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chtar.Throttle-Demo";
